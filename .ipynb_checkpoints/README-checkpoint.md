@@ -1,6 +1,5 @@
 # Solutions to Leetcode problems
 
-<html>
 <style>
 .problem{font-weight: bold;}
 
@@ -8,7 +7,6 @@
 .medium{color: #F6C249;}
 .hard{color: #EB4B62;}
 </style>
-</html>
 
 
 
