@@ -6,16 +6,13 @@ class Solution(object):
         :rtype: int
         """
         
-        n = len(s)
-        if n == 0:
-            return 0
+        g.sort()
+        s.sort()
         
-        s.sort(reverse=True)
-        g.sort(reverse=True)
-        
+        n = len(g)
         count = 0
-        for greed in g:
-            if greed <= s[count]:
+        for size in s:
+            if g[count] <= size:
                 count += 1
                 if count == n:
                     break
